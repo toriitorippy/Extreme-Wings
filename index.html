@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <script type="text/javascript" src="windowResize.js"></script>
     <title>Unity WebGL Player | Extreme Wings</title>
+    <script type="text/javascript" src="windowResize.js"></script>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=1920 height=1080 style="width: 1920px; height: 1080px; background: #231F20"></canvas>
-    <script src="Build/Extreme-Wings.loader.js"></script>
+    <canvas id="unity-canvas" width=1280 height=720 style="width: 1280px; height: 720px; background: #231F20"></canvas>
+    <script src="Build/Extreme-Wings_v2.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Extreme-Wings.data.unityweb",
-        frameworkUrl: "Build/Extreme-Wings.framework.js.unityweb",
-        codeUrl: "Build/Extreme-Wings.wasm.unityweb",
+        dataUrl: "Build/Extreme-Wings_v2.data.unityweb",
+        frameworkUrl: "Build/Extreme-Wings_v2.framework.js.unityweb",
+        codeUrl: "Build/Extreme-Wings_v2.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Caffeine-less",
         productName: "Extreme Wings",
